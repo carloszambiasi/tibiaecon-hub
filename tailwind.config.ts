@@ -61,7 +61,22 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				success: {
+					DEFAULT: 'hsl(var(--success))',
+					foreground: 'hsl(var(--success-foreground))'
+				},
+				warning: {
+					DEFAULT: 'hsl(var(--warning))',
+					foreground: 'hsl(var(--warning-foreground))'
+				},
+				'tibia-gold': 'hsl(var(--tibia-gold))',
+				'tibia-coin': 'hsl(var(--tibia-coin))',
+				'chart-1': 'hsl(var(--chart-1))',
+				'chart-2': 'hsl(var(--chart-2))',
+				'chart-3': 'hsl(var(--chart-3))',
+				'chart-4': 'hsl(var(--chart-4))',
+				'chart-5': 'hsl(var(--chart-5))'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
